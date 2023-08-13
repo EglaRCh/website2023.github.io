@@ -1,0 +1,157 @@
+*{
+    margin: 0px; 
+}
+
+#general{
+    width: 1300px;
+    height: 1200px;
+    margin: 0px;
+    background-color:#F8F9F0
+
+}
+
+#encabezado{
+    height: 8%;
+    margin: 0px;
+    background-color:#4a4a4a;  
+}
+
+#logo{
+    float:left;
+    width: 20%;
+    height: 90%;
+    margin-top: 1px;
+}
+
+#titulo{
+    float: right;
+    width: 75%;
+    height: 90%;
+    margin-top: 25px;
+    text-align:left;
+    font-style:oblique;
+    font-size: 40px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:aliceblue;
+}
+
+#contenido{
+    height: 85%;
+    background-color: #F8F9F0;
+    margin: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#informacion{
+    background-color: bisque;
+    margin: 10px;
+    
+}
+
+#menu{
+    height: 98%;
+    width: 28%;
+    background-color:white;
+    float:right;
+}
+
+#plantas{
+    height: 3%;
+    width: 50%;
+    margin:10px;
+    font-weight: bold;
+    background-color:rgba(8, 125, 125, 0.619);
+    text-align: center;
+}
+
+#accesorios{
+    height: 3%;
+    width: 50%;
+    margin:10px;
+    font-weight: bold;
+    background-color:rgba(8, 125, 125, 0.619);
+    text-align: center;
+}
+
+#nosotros{
+    height: 3%;
+    width: 50%;
+    margin:10px;
+    font-weight: bold;
+    background-color:rgba(8, 125, 125, 0.619);
+    text-align: center;
+}
+
+#mision-title{
+    height: 3%;
+    width: 68%;
+    background-color: bisque;
+    margin-left: 10px;
+    float:left;
+    text-align:center;
+    font-size: 20px;
+}
+
+#mision{
+    height: 10%;
+    width: 68%;
+    background-color: bisque;
+    margin-left: 10px;
+    float:left;
+    text-align:center;
+}
+
+#vision-title{
+    height: 3%;
+    width: 68%;
+    background-color: bisque;
+    margin-top: 10px;
+    margin-left: 10px;
+    float:left;
+    text-align:center;
+    font-size: 20px;
+}
+
+#vision{
+    height: 10%;
+    width: 68%;
+    background-color: bisque;
+    margin-left: 10px;
+    float:left;
+    text-align:center;
+}
+
+#historia-title{
+    height: 3%;
+    width: 68%;
+    background-color: bisque;
+    margin-top: 10px;
+    margin-left: 10px;
+    float:left;
+    text-align:center;
+    font-size: 20px;
+}
+
+#historia{
+    height: 30%;
+    width: 68%;
+    background-color: bisque;
+    margin-left: 10px;
+    float:left;
+    text-align:center;
+}
+
+
+#pie-pag{
+    height:3%;
+    width:98%;
+    background-color:black;
+}
+
+.img.logo{
+    width: 10%;
+    height: 90%;
+    align-content:center;
+}
+
+

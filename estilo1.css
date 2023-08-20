@@ -1,144 +1,176 @@
 *{
-    margin: 0px; 
+    margin: 0px;
+    padding: 0; 
 }
 
-#general{
-    width: 1300px;
-    height: 1200px;
-    margin: 0px;
-    background-color:#F8F9F0
-
+html{
+    height:100%;
 }
 
-#encabezado{
-    height: 8%;
-    margin: 0px;
-    background-color:#4a4a4a;  
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 
+    'Lucida Grande', 'Lucida Sans Unicode', Geneva, 
+    Verdana, sans-serif;
+    font-size: 20px;
+}
+
+.Contenedor{
+    display: grid;
+    gap: 10px;
+
+    /*Estructura para definir columnas como se visualizan en plantilla html */
+    grid-template:
+    "header" 55px
+    "navbar" 25px
+    "main" auto
+    "sidebar" 100px
+    "footer" 50px;
+    border-radius: 0px;
+    padding: 10px;
+    text-align: center;
+    height: 100%;
+    background-color:#EDEDED;
+}
+
+.Encabezado{
+    grid-area: header;
+    height: 100%;
+    background-color:#F8F9F0;  
+    margin: 0;
 }
 
 #logo{
-    float:left;
-    width: 20%;
-    height: 90%;
-    margin-top: 1px;
-}
-
-#titulo{
-    float: right;
-    width: 75%;
-    height: 90%;
-    margin-top: 25px;
-    text-align:left;
-    font-style:oblique;
-    font-size: 40px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color:aliceblue;
-}
-
-#contenido{
-    height: 85%;
-    background-color: #F8F9F0;
-    margin: 10px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-#informacion{
-    background-color: bisque;
-    margin: 10px;
+    display:inline-block;
+    width: 10%;
+    height: 10%;
     
 }
 
-#menu{
-    height: 98%;
-    width: 28%;
-    background-color:white;
-    float:right;
+#titulo{
+    display:inline-block;
+    width: 88%;
+    height: 10%;
+    text-align:left;
+    font-style:oblique;
+    font-size: 16px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:black;
+}
+.Menu {
+    grid-area: navbar;
+    height: 100%;
+    margin: 0;
+    background-color:rgba(8, 125, 125, 0.619);
 }
 
 #plantas{
-    height: 3%;
-    width: 50%;
-    margin:10px;
+    border: none;
+    color: white;
+    padding: 1px;
+    text-align: center;
+    text-decoration: none;
+    display:inline-table;
+    font-size: 16px;
+    margin: 2px 2px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    height: 100%;
+    width: 15%;
     font-weight: bold;
     background-color:rgba(8, 125, 125, 0.619);
-    text-align: center;
-}
 
-#accesorios{
-    height: 3%;
-    width: 50%;
-    margin:10px;
-    font-weight: bold;
-    background-color:rgba(8, 125, 125, 0.619);
-    text-align: center;
 }
 
 #nosotros{
-    height: 3%;
-    width: 50%;
-    margin:10px;
+    border: none;
+    color: white;
+    padding: 1px;
+    text-align: center;
+    text-decoration: none;
+    display:inline-table;
+    font-size: 16px;
+    margin: 2px 2px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    height: 100%;
+    width: 15%;
     font-weight: bold;
     background-color:rgba(8, 125, 125, 0.619);
-    text-align: center;
+
+}
+
+.Cuerpo {
+    grid-area:main;
+    background-color:EDEDED;
+    margin-top: 20px;
+}
+
+.imagenes {
+    width: 50%;
+    height: 10%;
+
+
 }
 
 #mision-title{
-    height: 3%;
-    width: 68%;
-    background-color: bisque;
+    height: 6%;
+    width: 100%;
     margin-left: 10px;
-    float:left;
     text-align:center;
-    font-size: 20px;
+    font-size: 25px;
+    background-color: white;    
 }
 
 #mision{
     height: 10%;
-    width: 68%;
-    background-color: bisque;
+    width: 100%;
+    background-color: white;
     margin-left: 10px;
-    float:left;
     text-align:center;
+
+    font-size: 18px;
 }
 
 #vision-title{
-    height: 3%;
-    width: 68%;
-    background-color: bisque;
+    height: 6%;
+    width: 100%;
+    background-color: white;
     margin-top: 10px;
     margin-left: 10px;
-    float:left;
+
     text-align:center;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 #vision{
     height: 10%;
-    width: 68%;
-    background-color: bisque;
+    width: 100%;
+    background-color: white;
     margin-left: 10px;
-    float:left;
+
     text-align:center;
+    font-size: 18px;
 }
 
 #historia-title{
-    height: 3%;
-    width: 68%;
-    background-color: bisque;
+    height: 6%;
+    width: 100%;
+    background-color: white;
     margin-top: 10px;
     margin-left: 10px;
-    float:left;
+ 
     text-align:center;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 #historia{
-    height: 30%;
-    width: 68%;
-    background-color: bisque;
+    height: 64%;
+    width: 100%;
+    background-color: white;
     margin-left: 10px;
-    float:left;
+  
     text-align:center;
+    font-size: 18px;
 }
 
 

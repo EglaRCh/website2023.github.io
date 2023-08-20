@@ -20,7 +20,7 @@ body {
 
     /*Estructura para definir columnas como se visualizan en plantilla html */
     grid-template:
-    "header" 55px
+    "header" 65px
     "navbar" 25px
     "main" auto
     "sidebar" 100px
@@ -41,15 +41,15 @@ body {
 
 #logo{
     display:inline-block;
-    width: 10%;
+    width: 12%;
     height: 10%;
     
 }
 
 #titulo{
     display:inline-block;
-    width: 88%;
-    height: 10%;
+    width: 87%;
+    height: 15%;
     text-align:left;
     font-style:oblique;
     font-size: 16px;

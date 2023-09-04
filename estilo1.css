@@ -22,12 +22,37 @@ body {
     font-weight:bold;
 }
 
+#saludo {
+    font-size: 32px;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 2px solid;
+    font-weight:bold;
+
+ /* Centrar el elemento horizontalmente y verticalmente */
+    padding-left:35%;
+
+}
+
+
 .carousel-inner {
     max-height: 30rem;
 }
 
 .cuerpo{
     margin: 5px;
+}
+
+#quantity1{
+    padding-left: 15%;
+}
+
+#quantity2{
+    padding-left: 15%;
+}
+
+#quantity3{
+    padding-left: 15%;
 }
 
 #mision-vision {
@@ -93,6 +118,11 @@ body {
     top: -110px;
 }
 
+@media screen and (max-width: 768px) {
+    #saludo {
+        font-size: 3vw;
+    }
+}
 
 /* MEDIA QUERIES PANTALLA XSM */
 @media (max-width:576px) {
@@ -101,6 +131,13 @@ body {
         justify-content: center !important;
     }
 }
+
+@media screen and (max-width: 480px) {
+    #saludo {
+        font-size: 2.5vw;
+    }
+}
+
 
 /* CONTACTOS BACKGROUND */
 #bg-contacto{

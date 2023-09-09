@@ -1,5 +1,47 @@
 @import url('https://fonts.googleapis.com/css2?familyMontserrat&display=swap');
 
+#ventanaEmergente {
+    display: none;
+    position: fixed;
+    top: 20%;
+    left: 35%;
+    transform: translate (-50%, 50%);
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    z-index: 9999;
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+    max-width: 80%; /* Limitar el ancho máximo */
+    max-height: 80%; /* Limitar la altura máxima */
+    overflow: auto;/* Agregar desplazamiento si el contenido es demasiado grande */
+}
+
+/* Estilo para el contenido de la ventana emergente */
+#contenidoVentana{
+    text-align: center;
+}
+
+/* Estilo para el fondo oscuro */
+#fondoOscuro {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 9998;
+}
+#cerrarVentana {
+    background-color: #0c5a3a; /* Color de fondo */
+    color: #fff; /* Color de texto */
+    border: none; /* Sin bordes */
+    padding: 10px 20px; /* Espaciado interior */
+    cursor: pointer; /* Cambiar el cursor al pasar sobre el botón */
+    border-radius: 10px; /* Bordes redondeados */
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
     overflow-x: hidden;

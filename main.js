@@ -78,4 +78,21 @@ AOS.init({
   })
 
 
+//VentanaEmergente de Bienvenida//
 
+document.addEventListener("DOMContentLoaded", function () {
+    const mostrarMensajeBtn = document.getElementById("mostrarMensaje");
+    const ventanaEmergente = document.getElementById("ventanaEmergente");
+    const fondoOscuro = document.getElementById("fondoOscuro");
+    const cerrarVentanaBtn = document.getElementById("cerrarVentana");
+
+    mostrarMensajeBtn.addEventListener("click", function () {
+        ventanaEmergente.style.display = "block";
+        fondoOscuro.style.display = "block";
+    });
+
+    cerrarVentanaBtn.addEventListener("click", function () {
+        ventanaEmergente.style.display = "none";
+        fondoOscuro.style.display = "none";
+    });
+});
